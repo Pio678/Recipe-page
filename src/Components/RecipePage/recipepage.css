@@ -1,0 +1,110 @@
+:root {
+  --purple: #722e4a;
+  --background-light-red: #fff7fc;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../../assets/fonts/outfit/static/Outfit-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../../assets/fonts/outfit/static/Outfit-Regular.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Outfit";
+  src: url("../../assets/fonts/outfit/static/Outfit-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "YoungSerif";
+  src: url("../../assets/fonts/young-serif/YoungSerif-Regular.ttf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.recipe-component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: "Outfit";
+  font-weight: 300;
+}
+
+.recipe-img {
+  object-fit: fill;
+  object-position: center;
+  width: 100%;
+}
+
+.recipe-text {
+  padding: 0 10% 0 10%;
+  background-color: white;
+}
+
+.recipe-name {
+  font-family: "YoungSerif";
+  font-size: 3.5rem;
+  margin: 4rem 0rem 0rem 0rem;
+  font-weight: 500;
+}
+
+.recipe-description {
+  margin-top: 2rem;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+}
+
+.preperation-time-container {
+  background-color: var(--background-light-red);
+  width: 100%;
+  padding: 1.4rem;
+  margin-top: 2rem;
+}
+
+.preperation-time-header {
+  color: var(--purple);
+  font-size: 1.8rem;
+}
+
+.preperation-time-list {
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}
+
+.preperation-time-list-item::marker {
+  color: var(--purple);
+  list-style-type: disc;
+}
+.preperation-time-list-item {
+  list-style-position: inside;
+
+  margin-top: 1rem;
+  margin-left: 0.7rem;
+  font-size: 1.6rem;
+}
+
+.preperation-time-list-item > span {
+  display: flex;
+  align-items: center;
+  align-content: center;
+}

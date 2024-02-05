@@ -1,0 +1,26 @@
+:root {
+  --backgroung-beige: #f3e5d8;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  min-height: 100%;
+  width: 100%;
+  font-size: 62.5%;
+  background-color: var(--backgroung-beige);
+}
+
+body {
+  height: 100%;
+  width: 100%;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+}
