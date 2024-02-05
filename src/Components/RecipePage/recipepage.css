@@ -153,15 +153,14 @@
 }
 
 .instruction-list {
-  list-style-position: inside;
-
-  padding-left: 0.5rem;
+  padding-left: 2rem;
   font-size: 1.6rem;
 }
+.instruction-step {
+  list-style-position: outside;
+  padding-left: 1rem;
+}
 .instruction-step > span {
-  padding-left: 1.4rem;
-  display: inline-block;
-  text-wrap: wrap;
 }
 
 .instruction-step::marker {
