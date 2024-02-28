@@ -56,7 +56,6 @@ export default function RecipePage() {
                 <span>Pepper, to taste</span>
               </li>
               <li className="ingredient">
-                {" "}
                 <span>1 tablespoon of butter or oil</span>
               </li>
               <li className="ingredient">

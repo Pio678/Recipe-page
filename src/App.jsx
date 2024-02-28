@@ -1,5 +1,3 @@
-import { useState } from "react";
-
 import RecipePage from "./Components/RecipePage/RecipePage";
 
 import "./App.css";
@@ -11,7 +9,7 @@ function App() {
       <RecipePage />
       <div className="attribution">
         {"Challenge by "}
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+        <a href="https://www.frontendmentor.io?ref=challenge">
           Frontend Mentor
         </a>
         . Coded by <a href="#">Pio678</a>.
